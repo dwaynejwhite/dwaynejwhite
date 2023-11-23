@@ -1,44 +1,56 @@
-# Video Game Sales Data Analysis
+# Dataset Analysis using Python
 
-This repository contains Python scripts that perform various data analysis tasks on video game sales data.
+## Overview
+This repository contains Python code for exploring and analyzing two datasets, namely "Salaries.csv" and "Auto.csv". It demonstrates basic data manipulation techniques, including reading data from CSV files, analyzing the structure of DataFrames, and converting data types using pandas in Python.
 
-## Part 1: Importing and Filtering Data
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Analysis Sections](#analysis-sections)
+  - [Salaries.csv Analysis](#salariescsv-analysis)
+  - [Auto.csv Analysis](#autocsv-analysis)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-### Importing a CSV File
-
-The Python script imports a CSV file containing video game sales data and filters it to find the games launched between 2000-2005.
-
-## Part 2: Simple Queries and Data Exploration
-
-### Running Simple Queries
-
-This section connects to a MySQL database, reads video game sales data into a DataFrame, and displays basic information about the dataset.
-
-## Part 3: Complex Queries and Analysis
-
-### Running Complex Queries
-
-It executes a complex SQL query on the dataset to calculate and display aggregated sales data for Action genre games released after 2005.
-
-## Part 4: Filtering Data in Python
-
-### Implementing WHERE Clause in Python
-
-The Python script showcases filtering techniques using pandas DataFrames, including selecting Nintendo-published games and action games released after 2005.
-
----
+## Introduction
+The code included in this repository demonstrates how to load and explore datasets using pandas in Python. The datasets used here, "Salaries.csv" and "Auto.csv," cover information related to salaries and automotive specifications, respectively.
 
 ## Getting Started
-
 ### Prerequisites
+To run the provided code, you need the following:
+- Python installed on your machine
+- Pandas library (`pip install pandas`)
 
-- Python
-- pandas library
-- pymysql library
-- sqlalchemy library
+### Installation
+1. Clone the repository: `git clone https://github.com/yourusername/repositoryname.git`
+2. Install required dependencies: `pip install pandas`
 
-### Running the Code
+## Analysis Sections
 
-1. Ensure the prerequisites are installed.
-2. Clone or download the repository.
-3. Open and run each Python script using a suitable Python interpreter.
+### Salaries.csv Analysis
+This section involves importing the "Salaries.csv" dataset and performing basic exploratory data analysis. The code includes functionalities to:
+- Read the CSV file using pandas
+- Display basic statistics and information about the dataset
+
+### Auto.csv Analysis
+The "Auto.csv" dataset analysis includes tasks such as:
+- Loading the dataset using pandas
+- Inspecting the structure of the DataFrame
+- Converting data types for appropriate columns
+
+## Usage
+Feel free to use the code snippets provided in your projects or for learning purposes. Modify and extend the code to suit your requirements.
+
+## Contributing
+If you have suggestions, enhancements, or issues, please create a pull request or raise an issue in the repository.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+Special thanks to the pandas community for providing an excellent data manipulation library in Python.
+Sepecial thanks to Durham College and Professor Omar Altrad for his lectures
